@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 2 Form</title>
+</head>
+<body>
+    <h1>DR.Ayam Bakar| Jl.Raya Ciherang Stamplas</h1>
+    <p>Selamat datang di DR.Ayam bakar-Jl.Raya ciherang stamplas, silahkan mengisi nama dan memilih menu untuk di hidangkan di restoran kami.</p>
+    <form  action="" method="POST">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Data diri Pelanggan</th>
+                    <!-- <th>2</th> -->
+                </tr>
+            </thead>
+           <tbody>
+                <tr>
+		    <td><label for="nama">Nama :</label></td>  	
+		    <td><input type="text" name="Nama"></td>	                                    
+                </tr>
+                <tr>
+	            <td><label for="Alamat">Alamat:</label></td>
+		    <td><input type="text" name="alamat"></td>                    
+                </tr>
+                <tr>
+		    <td><label for="Telephone">Nomor Telephone :</label></td> 		
+		    <td><input type="number" name="telephone"></td>	                                      
+                </tr>
+                <tr>
+	            <td><label for="email">Email :</label></td>    
+		    <td><input type="email" name="email"></td> 	                                    
+                </tr>
+                <tr>
+	            <td><label for="">Intruksi Pemesanan :</label></td>
+		    <td><textarea name="" rows="4" cols="21"></textarea></td>                    
+                </tr>
+           </tbody>
+        </table>
+
+        <fieldset>
+            <legend>Menu:</legend>
+            <h4>Lauk pauk:</h4>
+            <ul style="list-style: none;">
+                <li>
+		    <input type="radio" name="lauk pauk"  value="amb">	
+                    <label for="lauk pauk">Ayam bakar madu</label>                    
+                </li>
+                <li>
+		    <input type="radio" name="lauk Pauk"  value="abk">
+                    <label for="lauk Pauk">Ayam bakar kecap</label>                 
+                </li>
+                <li>
+		    <input type="radio" name="lauk pauk"  value="ag">	
+                    <label for="lauk pauk">Ayam Goreng</label>                   
+                </li>
+            </ul>
+            <h4>Pilihan Sambal(Opsional)</h4>
+            <ul style="list-style: none;">
+                <li>
+		    <input type="checkbox" name="Pilihan Sambal"  value="Si">
+                    <label for="Pilihan Sambal">Sambal Ijo</label>
+                   
+                </li>
+                <li>
+		    <input type="checkbox" name="Pilihan Sambal"  value="Sg">	
+                    <label for="Pilihan Sambal">Sambal Goreng</label>
+              
+                </li>
+		<li>
+		   <input type="checkbox" name="Pilihan Sambal"  value="Sk">	
+                   <label for="Pilihan Sambal">Sambal kecap</label>
+              
+                </li>
+                </ul>
+       <h4>No Pesanan :</h4>
+        <label for="count">Banyak nya pesanan</label>
+        <input type="number" name="count">
+        <br><br>
+        <button type="submit">Beri saya ayam bakar</button>
+        <button type="reset">Batal</button>
+        <h3>-Selamat Menikmati Hidangan Kami-</h3>
+    </fieldset>
+    </form>  
+</body>
+</html>
+
