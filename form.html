@@ -32,7 +32,7 @@
             text-align: center;
         }
 
-        input{
+        input, select{
             float: right;
         }
 
@@ -58,18 +58,17 @@
         }
 
         .akhir {
-            text-align: center;
+            text-align: right;
 
 
         }
-        .hobby{
+        .js{
             text-align: left;
             font-weight: bold;
             margin-bottom: 10px ;
         }
-        .pilih{
-            text-align: center;
-            margin-bottom: 10px;
+
+        input, ::selection{
             
         }
     </style>
@@ -119,20 +118,20 @@
                  <label for="nomor">No Telepon</label>
                  <input type="text" id="nomor">
              </div>
-             <div class="hobby">
+             <div class="js">
                 <td>Jabatan</td>
                  <select>
-                    <option value="pilih salah satu">Jabatan Baru</option>
+                    <option value="jb">Jabatan Baru</option>
                     <option value="direktur">Direktur</option>
                     <option value="sekretaris">Sekretaris</option>
                     <option value="Manager">Manager</option>
                  </select>
             </div>
 
-            <div class="hobby">
+            <div class="js">
                 <td>Status</td>
                  <select>
-                    <option value="pilih salah satu">Status Baru</option>
+                    <option value="sb">Status Baru</option>
                     <option value="naik jabatan">Naik Jabatan</option>
                     <option value="jabatan lama">Jabatan lama</option>
                     <option value="resign">Resign</option>
