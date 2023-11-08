@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            font-weight: bold;
+        }
+
+        .form-group{
+            margin-bottom: 10px;
+        }
+
+        .form-container{
+            background-color: lightblue;
+            padding: 2em;
+            border: 2px solid yellow;
+            border-radius: 5px;
+            box-shadow: 0 0 10px black;
+            width: 350px;
+            margin: 50px auto;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: beige;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        input{
+            float: right;
+        }
+
+        .yu {
+            background-color: blue;
+            box-shadow: 4px 3px 2px black;
+            color:antiquewhite;
+            border: none;
+            border-radius: 3px;
+            padding: 7px 10px;
+            cursor: pointer;
+            margin-left: 7em;
+        }
+
+        .yo {
+            background-color: red;
+            box-shadow: 4px 3px 2px black;
+            color:antiquewhite;
+            border: none;
+            border-radius: 3px;
+            padding: 7px 10px;
+            cursor: pointer; 
+        }
+
+        .akhir {
+            text-align: center;
+
+
+        }
+        .hobby{
+            text-align: left;
+            font-weight: bold;
+            margin-bottom: 10px ;
+        }
+        .pilih{
+            text-align: center;
+            margin-bottom: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+     <div style="background-color: black; color: white; height: 50px;">
+        <table align="center" cellpadding="15px">
+            <tr>
+                <td>Daftar Karyawan</td>
+                <td>Master Data</td>
+                <td>Tambah Data</td>
+            </tr>
+        </table>
+     </div>
+
+     <div class="form-container">
+        <h2>
+            FORM ENTRY DATA PEGAWAI</h2>
+        <form action="">
+            <div class="form-group">
+                 <label for="nik">Nik</label>
+                 <input type="text" id="nik">
+            </div>
+
+            <div class="form-group">
+                 <label for="nama">Nama</label>
+                 <input type="text" id="nama">
+           </div>
+
+           <div class="form-group">
+             <label for="ttl">Tempat lahir</label>
+                 <input type="text" id="ttl">
+                </div>
+
+             <div class="form-group">
+                 <label for="tanggal lahir">Tanggal Lahir</label>
+                 <input type="text" id="tanggal lahir">
+             </div>
+
+             <div class="form-group">
+                 <label for="alamat">Alamat</label>
+                 <input type="text" id="alamat">
+             </div>
+
+             <div class="form-group">
+                 <label for="nomor">No Telepon</label>
+                 <input type="text" id="nomor">
+             </div>
+             <div class="hobby">
+                <td>Jabatan</td>
+                 <select>
+                    <option value="pilih salah satu">Jabatan Baru</option>
+                    <option value="direktur">Direktur</option>
+                    <option value="sekretaris">Sekretaris</option>
+                    <option value="Manager">Manager</option>
+                 </select>
+            </div>
+
+            <div class="hobby">
+                <td>Status</td>
+                 <select>
+                    <option value="pilih salah satu">Status Baru</option>
+                    <option value="naik jabatan">Naik Jabatan</option>
+                    <option value="jabatan lama">Jabatan lama</option>
+                    <option value="resign">Resign</option>
+                 </select>
+            </div>
+ 
+           <div class="akhir">
+                <button type="submit" class="yu">Simpan</button>
+                <button type="reset" class="yo">Batal</button>
+           </div>
+           
+        </form>
+     </div>
+    </fieldset> 
+</body>
+</html>
