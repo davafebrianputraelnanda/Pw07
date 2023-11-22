@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+    padding: 0%;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+header, footer{
+    background-color: rgb(238, 144, 144);
+    height: 10vh;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#main{
+    display: flex;
+}
+
+#main article{
+    background-color: rgb(7, 137, 250);
+    height: 60vh;
+    flex: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px  ;
+}
+#main aside{
+    flex: 1;
+    background-color:hotpink;
+    height: 60vh;
+    flex: 0 0 20vw;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h2{
+    text-align: center;
+    margin-top: 55px;
+    
+}
+#foto img{
+    text-align: center;
+    margin: 15px;
+}
