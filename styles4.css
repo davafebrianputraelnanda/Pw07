@@ -20,7 +20,7 @@ nav{
     background-color: lightgray;
     float: left;
     width: 20%;
-    height: 596px;
+    height: 100vh;
 }
 #main aside{
     background-color: aquamarine;
