@@ -34,10 +34,13 @@ header, footer{
 }
 h2{
     text-align: center;
-    margin-top: 55px;
+    margin-top: 120px;
     
 }
 #foto img{
     text-align: center;
     margin: 15px;
+}
+img{
+    height: 150px;
 }
